@@ -1,0 +1,126 @@
+*{
+  cursor: url('https://docs.google.com/drawings/d/e/2PACX-1vQ4S2RluwxcPZvW0FLyAwo-xWcUB-DeOKlW8luhYXuweV-z53wi920aXlQQ8kl-HLoIp96nziwwS_oC/pub?w=51&amp;h=51') 12 12, auto;
+}
+
+body {
+  background-color: yellow;
+  background-image: linear-gradient(45deg,yellow,orange,yellow,orange,yellow,orange,yellow);
+  text-align: center;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.nav {
+  float: left;
+  width: 25%;
+}
+
+li.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.nav a:hover {
+  background-color: purple;
+}
+
+h1{
+  color: purple;
+  font-size: 450%;
+  text-shadow: -3px -3px orange, 3px -3px orange, -3px 3px orange, 3px 3px orange;
+  border-top: 7px double orange;
+  border-bottom: 7px double orange;
+  padding: 10px;
+  border-radius: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+h2{
+  color: purple;
+  font-size: 300%;
+  text-shadow: -2px -2px orange, 2px -2px orange, -2px 2px orange, 2px 2px orange;
+}
+
+h3{
+  color: purple;
+  font-size: 150%;
+  text-shadow: -1px -1px orange, 1px -1px orange, -1px 1px orange, 3px 1px orange;
+}
+
+h1:hover, h2:hover, h3:hover {
+  opacity: 1;
+  color: red;
+}
+
+h1,h2,h3 {
+  transition-duration: 0.4s;
+}
+
+blockquote {
+  font-size: 200%;
+  color: green;
+}
+
+/* This is
+a multi-line
+comment */
+
+a {
+  color: white;
+}
+
+table {
+  width: 100%;
+  border: 5px solid;
+  border-radius: 10px;
+}
+
+img {
+  width: 33%;
+  height: 500px;
+}
+
+hr {
+  background-color: purple;
+  height: 5px;
+  width: 90%;
+}
+
+p {
+  color: purple;
+  padding: 10px;
+  font-size: 150%;
+  background-color: yellow;
+  border-style: dotted;
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+td, th {
+  width: 25%;
+  border: 1px solid purple;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
